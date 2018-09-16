@@ -30,6 +30,7 @@ public static void RightClick(){
 '@
 Add-Type -MemberDefinition $DebugViewWindow_TypeDef -Namespace AutoClicker -Name Temp -ReferencedAssemblies System.Drawing
  
+
 $pt = New-Object System.Drawing.Point
 $pt2 = New-Object System.Drawing.Point
 if ([AutoClicker.Temp]::GetCursorPos([ref]$pt)) {
