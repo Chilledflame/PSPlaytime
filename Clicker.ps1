@@ -30,6 +30,7 @@ public static void RightClick(){
 '@
 Add-Type -MemberDefinition $DebugViewWindow_TypeDef -Namespace AutoClicker -Name Temp -ReferencedAssemblies System.Drawing
  
+#This means nothing
 
 $pt = New-Object System.Drawing.Point
 $pt2 = New-Object System.Drawing.Point
